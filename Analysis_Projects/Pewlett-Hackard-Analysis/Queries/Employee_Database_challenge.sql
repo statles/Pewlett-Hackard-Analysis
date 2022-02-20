@@ -26,6 +26,7 @@ ORDER BY emp_no ASC, to_date DESC;
 --retrieve number of employees by most recent job title who are retiring
 --figure out how to save this into a new table
 SELECT COUNT(title), title FROM employee_titles
+INTO retiring_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
