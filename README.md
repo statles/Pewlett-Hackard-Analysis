@@ -10,7 +10,8 @@ The results show that:
 - There are 72,459 employees eligible for retirement
 - There are 1,550 employees eligible for the mentorship program
 - Many employees who are eligible for retirement have changed titles over the years
+- 
 
 ## Summary:
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+Two queries that may supplement the data is to check how many managers are eligible for retirement. In addition, a query could be written to check how many employees who are eligible for the mentorship program are in departments with managers that may be eligible to retire. Another query that would be helpful is to join the salary table with the retirement_info table, so the company will know how much the employees that were retiring were making.
